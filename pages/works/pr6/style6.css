@@ -1,0 +1,41 @@
+body {
+    background: rgb(178, 180, 201);
+    font-size: medium;
+}
+ul {
+    background: rgb(89, 114, 168);
+}
+a{
+    width: 400px;
+}
+.header a{
+    background-color: rgb(132, 152, 194);
+    width: 400px;
+}
+.content{
+    background-color: rgb(109, 135, 192);
+}
+.content section{
+    background-color: rgb(232, 245, 197);
+    display: block;
+    padding: 5px;
+    margin: 5px;
+}
+.flex{
+    display: flex;
+    gap: 50px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.flex article{
+    background-color: rgb(90, 133, 211);
+    width: 480px;
+    padding: 10px;
+    margin: 5px;
+}
+.footer p{
+    display: flex;
+    gap: 50px;
+    flex-wrap: wrap;
+    justify-content: center;
+}

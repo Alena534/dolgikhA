@@ -1,0 +1,139 @@
+body{
+    background: rgb(178, 180, 201);
+}
+ul li{
+    display: inline-block;
+}
+ul{
+    background: rgb(161, 163, 233);
+}
+li{
+    padding: 15px;
+}
+.content{
+    display: flex;
+}
+aside{
+    width: 30%;
+}
+.nav{
+    display: flex;
+    gap: 20px;
+}
+.nav article, .kyrs article{
+    width: 300px;
+}
+.kyrs{
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+.prew{
+    width: 200px;
+    height: 100px;
+    background-size: cover;
+}
+.new1{
+    background: url(../img/new1.jpg);
+    background-size: cover;
+}
+.new2{
+    background: url(../img/new2.jpg);
+    background-size: cover;
+}
+.new3{
+    background: url(../img/new3.webp);
+    background-size: cover;
+}
+.navimg1{
+    background: url(../img/navimg1.webp);
+    background-size: cover;
+}
+.navimg2{
+    background: url(../img/navimg2.jpg);
+    background-size: cover;
+}
+.navimg3{
+    background: url(../img/navimg3.webp);
+    background-size: cover;
+}
+.kyrs1{
+    background: url(../img/kyrs1.jpg);
+    background-size: cover;
+}
+.kyrs2{
+    background: url(../img/kyrs2.jpg);
+    background-size: cover;
+}
+.p1{
+    text-align: center;
+}
+.p2{
+    text-indent: 20px;
+}
+.p3{
+    line-height: 200%; 
+}
+.p4 {
+    vertical-align: super;
+}
+.p5{
+    word-spacing: 7px;
+}
+.p6{
+    letter-spacing: 2px;
+}
+.p7{
+    white-space: pre;
+}
+.p8{
+    tab-size: 16;
+}
+.p9{
+    text-transform: capitalize;
+}
+.p10{
+    direction: rtl;
+}
+#p11{
+    unicode-bidi: bidi-override;
+}
+#p12{
+    text-decoration: line-through;
+}
+#p13::first-letter{
+    font-size: 2em;
+    margin-right: 2px; 
+    color: #86adce;
+    font-weight: bold;
+    text-shadow: -1px -1px 1px white, 1px 1px 1px #9E9D99;
+     
+}
+#p13::first-line{
+    color: #88cdda;
+}
+#p14{
+    quotes:'«' '»';
+}
+#p15{
+    font-family: 'Times New Roman', Times, serif;
+}
+#p16{
+    font-style: oblique;
+}
+#p17{
+    font-variant: small-caps;
+}
+#p18{
+    font-weight: 700;
+}
+#p19{
+    font-size: small;
+}
+#p20{
+    color: rgb(179, 151, 223);
+}
+#p21{
+    font: bolder;
+}
+

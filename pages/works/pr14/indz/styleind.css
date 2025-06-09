@@ -1,0 +1,19 @@
+body {
+    color: #fff;
+    font: 600 24px;
+}
+.box {
+    background: #b32d2d;
+    border-radius: 6px;
+    cursor: pointer;
+    height: 95px;
+    line-height: 95px;
+    text-align: center;
+    transition-property: background;
+    transition-duration: 3s;
+    transition-timing-function: linear;
+    width: 95px;
+}
+.box:hover {
+    background: #160d79;
+}

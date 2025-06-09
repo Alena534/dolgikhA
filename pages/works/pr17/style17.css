@@ -1,0 +1,142 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif
+}
+body{
+    background: rgb(236, 236, 236);
+}
+header{
+    background: rgb(82, 84, 235);
+    height: 170px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 480px;
+}
+main{
+    background: white;
+    width: 480px;
+}
+.menu{
+    display: flex;
+    height: 50px;
+    margin: 10px 25px 0px 25px;
+    align-items: center;
+    justify-content: space-between;
+}
+.menu-nav img{
+    width: 40px;
+    height: 20px;
+}
+.menu-logo{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+.line{
+    background: red;
+    width: 140px;
+    height: 4px;
+    margin-top: 11px;
+    margin-left: 150px;
+}
+h1{
+    color: white;
+}
+.follow{
+    color: white;
+    display: flex;
+    gap: 65px;
+    margin: 20px 40px 10px 40px;
+}
+.follow h3{
+    font-size: 16px;
+}
+h1{
+    margin-left: 25px;
+}
+p{
+    font-size: 10px;
+    color: grey;
+}
+.cont{
+    font-size: 34px;
+    color: white;
+    margin-left: 20px;
+}
+.wrapper{
+    display: flex;
+    flex-wrap: wrap;
+    width: 480px;
+    justify-content: center;
+}
+article{
+    width: 220px;
+    justify-content: center;
+}
+h4{
+    text-align: center;
+}
+.name{
+    font-size: 16px;
+    color: rgb(83, 83, 83);
+}
+.info{
+    display: flex;
+}
+.aa{
+    padding-right: 10px;
+}
+.a{
+    padding-right: 50px;
+}
+.img{
+    height: 80px;
+    width: 200px;
+    margin: 3px;
+}
+.img1{
+    background: url(../../../img/c1.png);
+    background-size: cover;
+}
+.img2{
+    background: url(../../../img/c2.png);
+    background-size: cover;
+}
+.img3{
+    background: url(../../../img/c3.png);
+    background-size: cover;
+}
+.img4{
+    background: url(../../../img/c4.png);
+    background-size: cover;
+}
+.img5{
+    background: url(../../../img/c5.png);
+    background-size: cover;
+}
+.img6{
+    background: url(../../../img/c6.png);
+     background-size: cover;
+}
+.img7{
+    background: url(../../../img/c7.png);
+     background-size: cover;
+}
+.img8{
+    background: url(../../../img/c8.png);
+    background-size: cover;
+}
+.imgg{
+    background: url(../../../img/g.png);
+    height: 20px;
+    width: 20px;
+    margin-top: 12px;
+    background-size: cover;
+}
+.dd{
+    display: flex;
+}
+footer{
+    margin: 20px;
+}

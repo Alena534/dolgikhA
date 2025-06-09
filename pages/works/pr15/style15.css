@@ -1,0 +1,51 @@
+.promo{
+    display: grid;
+    height: 700px;
+    width: 1310px;
+    grid-template-columns: repeat(3, auto);
+    grid-template-rows: repeat(3, auto);
+    gap: 10px;
+}
+.photo-1{
+    background: url(../../../img/15.1.png);
+    background-repeat: no-repeat;
+    grid-row: span 3;
+    width: 489px;
+    height: 612px;
+}
+.photo-2{
+    background: url(../../..//img/15.2.png);
+    background-repeat: no-repeat;
+    width: 399px;
+    height: 301px;
+}
+.photo-3{
+    background: url(../../../img/15.3.png);
+    background-repeat: no-repeat;
+    width: 405px;
+    height: 301px;
+}
+
+.photo-4{
+    background: url(../../../img/15.4.png);
+    background-repeat: no-repeat;
+    width: 400px;
+    height: 300px;
+}
+.photo-5{
+    background: url(../../../img/15.5.png);
+    background-repeat: no-repeat;
+    width: 398px;
+    height: 294px;
+}
+main h3{
+    width: 1313px;
+    height: 58px;
+    text-align: center;
+    grid-column: span 3;
+}
+main p{
+    width: 1312px;
+    height: 111px;
+    grid-column: span 3;
+}
